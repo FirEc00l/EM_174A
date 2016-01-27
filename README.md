@@ -10,7 +10,7 @@ EM-174A motor driver is designed for DC-motor speed control. Click on the link b
 http://electromen.com/en/products/item/motor-controllers/dc-motor-below-10A/EM-174A
 
 EM-174A allows you to control:
- - Speed of motors (Voltage): With a value between 0 and 255 (0: 0V - 255: Max V)
+ - Motor speed (Voltage): With a value between 0 and 255 (0: 0V - 255: Max V)
  - Current limit: With a value between 0 and 255 (0: 0A - 255: Max A)
  - Direction
 
@@ -27,7 +27,7 @@ Download library by clicking on Download ZIP in the EM_174A page on GitHub. (Top
 On Arduino IDE:
 Click on Sketch in the top menu.
 Select Include Library, so select Add .ZIP Library...
-Now choose the archive just downloaded and restart the Arduino IDE.
+Now choose the archive just downloaded and restart Arduino IDE.
 
 ### Usage
 You need to include EM_174A library:
