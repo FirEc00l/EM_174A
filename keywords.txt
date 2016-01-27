@@ -1,0 +1,15 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EM_174A	KEYWORD1
+FORWARD	KEYWORD1
+BACK	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setCurrentLimit	KEYWORD2
+setSpeed	KEYWORD2
+setDirection	KEYWORD2
