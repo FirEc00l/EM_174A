@@ -11,7 +11,7 @@ http://electromen.com/en/products/item/motor-controllers/dc-motor-below-10A/EM-1
 
 EM-174A allows you to control:
  - Speed of motors (Voltage): With a value between 0 and 255 (0: 0V - 255: Max V)
- - Current limit: With a value between 0 and 255* (0: 0A - 255: Max A)
+ - Current limit: With a value between 0 and 255 (0: 0A - 255: Max A)
  - Direction
 
 >IMPORTANT: If you want to set current limit from Arduino, you must set to 0 position >the current limit trim on the driver.
