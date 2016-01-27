@@ -22,7 +22,12 @@ You can previously set driver parameters and then call methods Start() and Stop(
 
 ### Installation
 
-Coming soon...
+Download library by clicking on Download ZIP in the EM_174A page on GitHub. (Top right)
+
+On Arduino IDE:
+Click on Sketch in the top menu.
+Select Include Library, so select Add .ZIP Library...
+Now choose the archive just downloaded and restart the Arduino IDE.
 
 ### Usage
 You need to include EM_174A library:
