@@ -45,7 +45,7 @@ Constructor's parameters are (in order):
 
 After that you should set pin modes:
 
-```
+```Arduino
 void setup() {
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);
@@ -55,7 +55,7 @@ void setup() {
 
 Now you can set your parameters:
 
-```
+```Arduino
   myDriver.setCurrentLimit(255);
   myDriver.setSpeed(255);
   myDriver.setDirection(true);
@@ -65,12 +65,12 @@ Set direction to TRUE if you want motor to go FORWARD, and vice versa.
 
 And then call method start():
 
-```
+```Arduino
   myDriver.start();
 ```
 
 Or method stop():
 
-```
+```Arduino
   myDriver.stop();
 ```
