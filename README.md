@@ -14,7 +14,7 @@ EM-174A allows you to control:
  - Current limit: With a value between 0 and 255 (0: 0A - 255: Max A)
  - Direction
 
->IMPORTANT: If you want to set current limit from Arduino, you must set to 0 position >the current limit trim on the driver.
+>IMPORTANT: If you want to set current limit from Arduino, you must set to 0 position the current limit trim on the driver.
 
 
 With this library you can control your driver easly:
@@ -41,7 +41,7 @@ Constructor's parameters are (in order):
  - Speed set (pin 6 on the driver, pin 10 on arduino in my example)
  - Direction (pin 7 on the driver, pin 11 on arduino in my example)
  
-> IMPORTANT: All pins on Arduino must be PWM.
+> IMPORTANT: All pins on Arduino must be PWM but Direction Pin (Not tested).
 
 After that you should set pin modes:
 
